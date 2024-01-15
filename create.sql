@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS echipe(
 	formula_1_id integer not null,
 	nume varchar(300) not null,
 	tara_origine varchar(300) not null,
-	an_indiintare integer not null,
+	an_infiintare integer not null,
 	existente bool not null,
 	primary key(id),
 	foreign key(formula_1_id) references formula_1(id)
@@ -22,6 +22,7 @@ CREATE TABLE IF NOT EXISTS manageri(
 	nume varchar(300) not null,
 	ani_vechime integer not null,
 	email varchar(300) not null,
+	echipa varchar(300) not null,
 	primary key(id)
 );
 CREATE TABLE IF NOT EXISTS manageri_echipe(

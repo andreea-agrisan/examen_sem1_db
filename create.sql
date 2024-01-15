@@ -4,6 +4,7 @@ CREATE TABLE IF NOT EXISTS formula_1(
 	reglementari varchar(300) not null,
 	pneuri varchar(300) null,
 	punctaj varchar(300) null,
+	steaguri varchar(300) null,
 	primary key(id)
 );
 CREATE TABLE IF NOT EXISTS echipe(

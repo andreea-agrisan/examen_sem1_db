@@ -261,3 +261,4 @@ INSERT INTO masini (denumire, echipa_apartinatoare, culori) values ('M191', 'Min
 INSERT INTO masini (denumire, echipa_apartinatoare, culori) values ('AP01', 'Prost', 'albastru, alb');
 
 --6 tabel
+INSERT INTO circuite (nume, tara, nr_accidente, nr_tururi) values ()

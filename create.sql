@@ -69,7 +69,7 @@ CREATE TABLE IF NOT EXISTS circuite(
 	formula_1_id integer not null,
 	nume varchar(300) not null,
 	tara varchar(300) not null,
-	nr_accidente integer null,
+	nr_sicane integer null,
 	nr_tururi integer not null,
 	primary key(id),
 	foreign key(formula_1_id) references formula_1(id)

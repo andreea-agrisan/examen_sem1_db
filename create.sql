@@ -1,7 +1,7 @@
 -- SQL syntax for create tables
 CREATE TABLE IF NOT EXISTS formula_1(
 	id serial not null,
-	reglementari varchar(300) not null,
+	reglementari varchar(300) null,
 	pneuri varchar(300) null,
 	punctaj varchar(300) null,
 	steaguri varchar(300) null,
@@ -76,7 +76,7 @@ CREATE TABLE IF NOT EXISTS circuite(
 );
 CREATE TABLE IF NOT EXISTS curse(
 	id serial not null,
-	circuite_id integer unique not null,
+	circuite_id integer not null,
 	tip varchar(300) not null,
 	ziua_cursei varchar(300) not null,
 	media_spectatorilor integer not null,

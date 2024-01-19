@@ -88,7 +88,7 @@ CREATE TABLE IF NOT EXISTS sponsori(
 	echipe_id integer not null,
 	piloti_id integer not null,
 	nume varchar(300) not null,
-	investitie varchar(300) not null,
+	investitie integer not null,
 	primary key(id),
 	foreign key(echipe_id) references echipe(id),
 	foreign key(piloti_id) references piloti(id)

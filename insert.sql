@@ -121,7 +121,7 @@ INSERT INTO manageri (nume, ani_vechime, email, echipa) values ('Maurizio Arriva
 INSERT INTO manageri (nume, ani_vechime, email, echipa) values ('John Booth', 5, 'joh.boo@f1.com', 'Virgin');
 INSERT INTO manageri (nume, ani_vechime, email, echipa) values ('Eric Boullier', 8, 'eri.bou@f1.com', 'Renault');
 INSERT INTO manageri (nume, ani_vechime, email, echipa) values ('Ross Brawn', 6, 'ros.bra@f1.com', 'Honda');
-INSERT INTO manageri (nume, ani_vechime, email, echipa) values ('Jack Brabham',121, 'jac.bra@f1.com', 'Brabham');
+INSERT INTO manageri (nume, ani_vechime, email, echipa) values ('Jack Brabham',12, 'jac.bra@f1.com', 'Brabham');
 INSERT INTO manageri (nume, ani_vechime, email, echipa) values ('Eric Broadley', 1, 'eri.bro@f1.com', 'Lola');
 INSERT INTO manageri (nume, ani_vechime, email, echipa) values ('Flavio Briatore', 16, 'fla.bri@f1.com', 'Benetton');
 INSERT INTO manageri (nume, ani_vechime, email, echipa) values ('Jost Capito', 2, 'jos.cap@f1.com', 'Williams');
@@ -160,7 +160,7 @@ INSERT INTO manageri (nume, ani_vechime, email, echipa) values ('Frederic Vasseu
 INSERT INTO piloti (nume, varsta, echipa, campionate_castigate) values ('Max Verstappen', 23, 'RedBull', 3);
 INSERT INTO piloti (nume, varsta, echipa, campionate_castigate) values ('Sergio Perez', 36, 'RedBull', 0);
 INSERT INTO piloti (nume, varsta, echipa, campionate_castigate) values ('Charles Leclerc', 22, 'Ferrari', 0);
-INSERT INTO piloti (nume, varsta, echipa, campionate_castigate) values ('Crlos Sainz', 26, 'Ferrari', 0);
+INSERT INTO piloti (nume, varsta, echipa, campionate_castigate) values ('Carlos Sainz', 26, 'Ferrari', 0);
 INSERT INTO piloti (nume, varsta, echipa, campionate_castigate) values ('Lando Norris', 22, 'McLaren', 0);
 INSERT INTO piloti (nume, varsta, echipa, campionate_castigate) values ('Oscar Piastri', 21, 'McLaren', 0);
 INSERT INTO piloti (nume, varsta, echipa, campionate_castigate) values ('Lewis Hamilton', 38, 'Mercedes', 7);
@@ -381,7 +381,7 @@ INSERT INTO curse (circuite_id, tip, ziua_cursei, media_spectatorilor) values (2
 INSERT INTO curse (circuite_id, tip, ziua_cursei, media_spectatorilor) values (22, 'Cursa', 'Duminica', 560000);
 INSERT INTO curse (circuite_id, tip, ziua_cursei, media_spectatorilor) values (23, 'Antrenament', 'Vineri', 480000);
 INSERT INTO curse (circuite_id, tip, ziua_cursei, media_spectatorilor) values (23, 'Calificare', 'Sambata', 530000);
-INSERT INTO curse (circuite_id, tip, ziua_cursei, media_spectatorilor) values (23, 'Cursa', 'Duminica', 61.000);
+INSERT INTO curse (circuite_id, tip, ziua_cursei, media_spectatorilor) values (23, 'Cursa', 'Duminica', 610000);
 INSERT INTO curse (circuite_id, tip, ziua_cursei, media_spectatorilor) values (24, 'Antrenament', 'Vineri', 230000);
 INSERT INTO curse (circuite_id, tip, ziua_cursei, media_spectatorilor) values (24, 'Calificare', 'Sambata', 320000);
 INSERT INTO curse (circuite_id, tip, ziua_cursei, media_spectatorilor) values (24, 'Cursa', 'Duminica', 380000);

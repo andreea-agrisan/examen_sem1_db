@@ -1,4 +1,4 @@
---SQL fule for select
+--SQL file for select
 
 --1 tabel
 SELECT * from formula_1;

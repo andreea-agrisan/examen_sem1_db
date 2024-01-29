@@ -1,0 +1,1 @@
+SELECT nume, COUNT (echipa) from piloti GROUP BY(nume, echipa);
